@@ -1,0 +1,142 @@
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: beige;
+}
+
+nav {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+.navbar1 {
+    position: fixed;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 100px;
+}
+
+.navbar-brand1 {
+    left: 50px;
+    position: relative;
+}
+
+a {
+    font-weight: 200;
+}
+
+.image {
+    text-align: center;
+    margin-top: 220px;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+.name{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 300;
+    color: rgb(243, 107, 107);
+}
+
+.role {
+    text-align: center;
+    color: rgb(107, 79, 79);
+}
+
+.jss58{
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+footer {
+    color: white;
+}
+
+.about {
+    margin-top: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.portfolio {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-content {
+    margin-left: 100px;
+}
+
+.about-content-2 {
+    font-size: 1.5rem;
+    font-weight: 350;
+    color: rgba(0,0,0,.8);
+}
+
+.project-box {
+    width: 350px;
+    height: 350px;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+
+.project-main-box {
+    text-align: center;
+}
+
+.project-box1 {
+    background-color: rgb(10, 116, 219);
+}
+
+.project-box2{
+    background-color: rgb(233, 20, 37)
+}
+
+.project-box3{
+    background-color: rgb(39, 51, 119);
+}
+
+a:hover {
+    font-size: 30px; 
+  }
+
+@media (max-width: 830px) {
+    .project-main-box {
+      flex-direction: column;
+      align-items: center;
+    }
+    .project-box{
+        margin-bottom: 10px;
+    }
+
+    .about-content-2 {
+        font-size: large;
+    }
+
+  }
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+
+
