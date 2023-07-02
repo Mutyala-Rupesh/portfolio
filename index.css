@@ -29,7 +29,7 @@ a {
 .image {
     text-align: center;
     margin-top: 220px;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-name: slidein;
 }
 
@@ -109,10 +109,6 @@ footer {
 .project-box3{
     background-color: rgb(39, 51, 119);
 }
-
-a:hover {
-    font-size: 30px; 
-  }
 
 @media (max-width: 830px) {
     .project-main-box {
